@@ -22,12 +22,12 @@ public class PreEntregaApplication {
 		String orderList = "";
 
 		//Add countries
-		//AddCountriesBo addCountries = new AddCountriesBo();
-		//addCountries.addNewContries();
+		AddCountriesBo addCountries = new AddCountriesBo();
+		addCountries.addNewContries();
 		
 		//Add clients
-		//AddClientsBo addClients = new AddClientsBo();
-		//addClients.addClients();
+		AddClientsBo addClients = new AddClientsBo();
+		addClients.addClients();
 		
 		data = new Scanner(System.in);
 
